@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  font-weight: 400;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+.header {
+ height: 100vh;
+  background-image: url(https://media.discordapp.net/attachments/741386090501505094/759020826468155422/B5MIbXfWZVFzAAAAAElFTkSuQmCC.png);
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lilita-one {
+  font-family: 'Lilita One', cursive;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.advertisement {
+  align-items: center;
+}
