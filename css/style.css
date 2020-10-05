@@ -57,3 +57,35 @@ body {
 .advertisement {
   align-items: center;
 }
+
+.auto-grid > li {
+  padding: 5rem 1rem;
+  text-align: left;
+  font-size: 1.2rem;
+  color: 000000;
+  list-style: none;
+}
+
+.auto-grid {
+  --auto-grid-min-size: 16rem;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+.no-dec {
+  text-decoration: none;
+}
+
+.text-blue {
+  color: #28a5df ;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
